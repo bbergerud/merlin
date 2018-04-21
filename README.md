@@ -25,7 +25,7 @@ Functions that can be used to create dataframes are the following:
     get_birds_by_family(*families)
     get_birds_by_group(*groups)
     get_birds_by_order(*orders)
-    get_birds_by_names(*names)
+    get_birds_by_name(*names)
 ```
 
 Each function can take a series of strings referring to birds of the designated type. Thus a few usages are the following
@@ -74,6 +74,7 @@ Some python library dependencies:
 ```
     BeautifulSoup
     skimage
+    pandas
     vimeo_dl
     vlc                  [also need VLC media player]
     webbrowser

@@ -1,4 +1,4 @@
-from birds.database import get_birds_by_group, get_birds_by_names, load_csv
+from birds.database import get_birds_by_group, get_birds_by_name, load_csv
 from birds.database import get_birds_by_order, get_birds_by_family
 from birds.html     import open_browser
 from birds.audio    import audio_quiz
@@ -78,10 +78,10 @@ class_birds = [
     'northern shoveler',
     'pectoral sandpiper',
     'pied-billed grebe',
-    'ring-necked duck',
     'red-tailed hawk',
     'red-winged blackbird',
     'ring-billed gull',
+    'ring-necked duck',
     'rock pigeon',
     'ruddy duck',
     'sandhill crane',
@@ -91,5 +91,5 @@ class_birds = [
     'turkey vulture',
 ]
 
-custom_list = get_birds_by_names(*custom_list)
-class_birds = get_birds_by_names(*class_birds)
+custom_list = get_birds_by_name(*custom_list)
+class_birds = get_birds_by_name(*class_birds)

@@ -180,7 +180,7 @@ def get_birds_by_family(*families):
     return df.sort_index()
 
 
-def get_birds_by_names(*names):
+def get_birds_by_name(*names):
     csv = load_csv()
 
     df = pd.DataFrame()
