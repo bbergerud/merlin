@@ -55,7 +55,7 @@ To run an *audio_quiz* on the birds defined in the dataframe *custom_list*, and 
 Similarly, to run a *video_quiz* on the birds that we've seen and test on the family of the bird we can call
 
 ```
-    video_quiz(class_birds)
+    video_quiz(class_birds, key='family')
 ```
 
 To exit a quiz, simply type "q" and press return. The audio can be repeated by entering "r" and pressing return; the same works with the video quiz.
